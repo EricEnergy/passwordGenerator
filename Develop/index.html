@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Password Generator</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+</head>
+
+<body style="background-color: rgb(30, 120, 255) ">
+  
+
+
+
+  <header>
+    <h1 class="text-center mt-4 mb-4 text-black-50 font-weight-bolder">Password Generator</h1>
+  </header>
+
+  <div class="container">
+    <div class="jumbotron shadow-lg bg-white">
+
+
+      <h2 class="ml-4 text-center">Generate a Password Here</h2>
+      <hr>
+
+      <div class="row">
+        <textarea class="mx-auto text-center" style="height: 150px; width: 100%;" readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password">
+        </textarea>
+      </div>
+
+      <hr>
+
+      <div class="form-row text-center">
+        <div class="col-6">
+          <button id="generate" class="btn btn-danger rounded-pill" style="height: 50px; width: 50%;">
+            <h5>Generate Password</h5>
+
+          </button>
+        </div>
+        <div class="col-6">
+          <button id="copy" class="btn btn-success rounded-pill" style="height: 50px; width: 50%;">
+            <h5>Copy to Clipboard</h5>
+
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script type="text/javascript" src="main.js"></script> 
+</body>
+
+</html>
