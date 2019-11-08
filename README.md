@@ -1,4 +1,4 @@
-JavaScript Homework: Password Generator
+## JavaScript Homework: Password Generator
 
 
 ## Contributors
@@ -20,7 +20,7 @@ AFter the button "generate password" is pressed, the user will be prompted to ch
 
 * Character type:
 
-  * Special characters ([see examples](https://www.owasp.org/index.php/Password_special_characters))
+  * Special characters
 
   * Numeric characters
 
