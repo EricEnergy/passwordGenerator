@@ -5,14 +5,14 @@
 @ericenergy
 
 ## Technology
-- HTML5, CSS, SCSS
+- HTML5, CSS, Bootstrap
 - Bootstrap
-- Javascript (via Bootstrap)
+- Javascript
 
 
 ## Description
 
-I created an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.
+This application generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.
 
 AFter the button "generate password" is pressed, the user will be prompted to choose from the following password criteria:
 
